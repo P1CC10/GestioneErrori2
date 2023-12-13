@@ -5,7 +5,7 @@ public class Main {
             verificaNumero(carattere);
             System.out.println("é un numero");
         }catch (Exception e){
-            System.out.println(e.getMessage());
+            System.out.println("non è un numero");
         }
     }
 
